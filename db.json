@@ -1,0 +1,36 @@
+{
+  "employees": [
+    {
+      "id": "5",
+      "name": "Мария Смирнова",
+      "email": "maria@example.com",
+      "age": 28,
+      "position": "QA Engineer",
+      "department": "QA"
+    },
+    {
+      "id": "6",
+      "name": "Мария Смирнова",
+      "email": "maria@example.com",
+      "age": 28,
+      "position": "QA Engineer",
+      "department": "QA"
+    },
+    {
+      "id": "64e8",
+      "name": "test",
+      "email": "test@gmail.com",
+      "age": "39",
+      "position": "test",
+      "department": "test"
+    },
+    {
+      "id": "c4df",
+      "name": "test",
+      "email": "test@gmail.com",
+      "age": "50",
+      "position": "test",
+      "department": "test"
+    }
+  ]
+}
