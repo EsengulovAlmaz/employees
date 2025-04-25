@@ -1,12 +1,12 @@
 import React from 'react'
 
-interface ModalWrapperProps {
+interface Props {
   isOpen: boolean;
   children: React.ReactNode;
   onClose: () => void;
 }
 
-const ModalWrapper: React.FC<ModalWrapperProps> = ({ isOpen, onClose, children }) => {
+const ModalWrapper: React.FC<Props> = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null
 
   return (

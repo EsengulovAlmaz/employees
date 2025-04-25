@@ -7,10 +7,10 @@ export const employeesAPI = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3001' }),
   tagTypes: ['Employees'],
   endpoints: (build) => ({
-    getEmployees: build.query<EmployeesTypes[], string>({
-      query: () => ({
+    getEmployees: build.query<EmployeesTypes[], Record<string, string>>({
+      query: (params) => ({
         url: '/employees',
-        params: {},
+        params,
       }),
       providesTags: (result) => ['Employees'],
     }),

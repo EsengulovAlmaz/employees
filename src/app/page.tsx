@@ -5,6 +5,7 @@ import React from 'react'
 import Button from '@/components/Button'
 import DeleteConfirmModal from '@/components/DeleteConfirmModal'
 import EmployeesList from '@/components/EmployeesList'
+import Filter from '@/components/Filter'
 import FormModal from '@/components/FormModal'
 import { useAppDispatch, useAppSelector } from '@/hooks/redux'
 import { useDisclosure } from '@/hooks/useDisclosure'
@@ -58,6 +59,8 @@ export default function Home() {
           />
         </div>
       </div>
+
+      <Filter />
 
       <EmployeesList />
 

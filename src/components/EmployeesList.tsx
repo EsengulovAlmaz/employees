@@ -11,9 +11,9 @@ import CustomCheckbox from './CustomCheckbox'
 import EmployeeItem from './EmployeeItem'
 
 const EmployeesList = () => {
-  const { data: employees , error, isLoading } = employeesAPI.useGetEmployeesQuery('')
+  const { selectedEmployees, filter } = useAppSelector(state => state.employeesReducer)
+  const { data: employees , error, isLoading } = employeesAPI.useGetEmployeesQuery(filter)
   const { setSelectedEmployees } = employeesSlice.actions
-  const { selectedEmployees } = useAppSelector(state => state.employeesReducer)
   const dispatch = useAppDispatch()
 
   const onSelectEmployee = (employeeId: number, isSelected: boolean) => {

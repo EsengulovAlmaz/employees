@@ -57,28 +57,33 @@ const FormModal: React.FC<Props> = ({
         <form onSubmit={handleSubmit(onClickSubmit)}>
           <InputField
             label="Name"
+            placeholder="Name"
             {...register('name', EmployeesRules.name)}
             error={errors.name}
           />
           <InputField
             label="Email"
+            placeholder="Email"
             type="email"
             {...register('email', EmployeesRules.email)}
             error={errors.email}
           />
           <InputField
             label="Age"
+            placeholder="Age"
             type="number"
             {...register('age', EmployeesRules.age)}
             error={errors.age}
           />
           <InputField
             label="Position"
+            placeholder="Position"
             {...register('position', EmployeesRules.position)}
             error={errors.position}
           />
           <InputField
             label="Department"
+            placeholder="Department"
             {...register('department', EmployeesRules.department)}
             error={errors.department}
           />
