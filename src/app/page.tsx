@@ -2,11 +2,11 @@
 
 import React from 'react'
 
-import Button from '@/components/Button'
-import DeleteConfirmModal from '@/components/DeleteConfirmModal'
-import EmployeesList from '@/components/EmployeesList'
-import Filter from '@/components/Filter'
-import FormModal from '@/components/FormModal'
+import Button from '@/components/Button/Button'
+import DeleteConfirmModal from '@/components/DeleteConfirmModal/DeleteConfirmModal'
+import EmployeesList from '@/components/EmployeesList/EmployeesList'
+import Filter from '@/components/Filter/Filter'
+import FormModal from '@/components/FormModal/FormModal'
 import { useAppDispatch, useAppSelector } from '@/hooks/redux'
 import { useDisclosure } from '@/hooks/useDisclosure'
 import { employeesSlice } from '@/store/reducers/EmployeeSlice'

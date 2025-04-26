@@ -9,14 +9,6 @@
       "department": "QA"
     },
     {
-      "id": "6",
-      "name": "Мария Смирнова",
-      "email": "maria@example.com",
-      "age": 28,
-      "position": "QA Engineer",
-      "department": "QA"
-    },
-    {
       "id": "64e8",
       "name": "test",
       "email": "test@gmail.com",

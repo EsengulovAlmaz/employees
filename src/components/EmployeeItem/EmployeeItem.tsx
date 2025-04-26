@@ -6,10 +6,10 @@ import { employeesSlice } from '@/store/reducers/EmployeeSlice'
 import { employeesAPI } from '@/store/services/EmployeesService'
 import { EmployeesTypes } from '@/types/EmployeesTypes'
 
-import Button from './Button'
-import CustomCheckbox from './CustomCheckbox'
-import DeleteConfirmModal from './DeleteConfirmModal'
-import FormModal from './FormModal'
+import Button from '../Button/Button'
+import CustomCheckbox from '../CustomCheckbox/CustomCheckbox'
+import DeleteConfirmModal from '../DeleteConfirmModal/DeleteConfirmModal'
+import FormModal from '../FormModal/FormModal'
 
 interface Props extends EmployeesTypes {
   isSelected: boolean

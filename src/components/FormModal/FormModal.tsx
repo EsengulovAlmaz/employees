@@ -1,13 +1,12 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 
-import { employeesAPI } from '@/store/services/EmployeesService'
 import { EmployeesTypes } from '@/types/EmployeesTypes'
 import EmployeesRules from '@/utils/validate'
 
-import Button from './Button'
-import { InputField } from './InputField'
-import ModalWrapper from './ModalWrapper'
+import Button from '../Button/Button'
+import { InputField } from '../InputField/InputField'
+import ModalWrapper from '../ModalWrapper/ModalWrapper'
 
 interface Props {
   title: string

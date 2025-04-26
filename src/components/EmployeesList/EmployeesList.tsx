@@ -7,8 +7,8 @@ import { useAppDispatch, useAppSelector } from '@/hooks/redux'
 import { employeesSlice } from '@/store/reducers/EmployeeSlice'
 import { employeesAPI } from '@/store/services/EmployeesService'
 
-import CustomCheckbox from './CustomCheckbox'
-import EmployeeItem from './EmployeeItem'
+import CustomCheckbox from '../CustomCheckbox/CustomCheckbox'
+import EmployeeItem from '../EmployeeItem/EmployeeItem'
 
 const EmployeesList = () => {
   const { selectedEmployees, filter } = useAppSelector(state => state.employeesReducer)

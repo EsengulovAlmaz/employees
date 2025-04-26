@@ -13,6 +13,7 @@ const ModalWrapper: React.FC<Props> = ({ isOpen, onClose, children }) => {
     <div
       className="fixed inset-0 bg-gray-800/75 flex justify-center items-center z-50"
       onClick={onClose}
+      role="dialog"
     >
       <div onClick={(e) => e.stopPropagation()}>
         {children}

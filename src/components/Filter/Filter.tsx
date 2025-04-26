@@ -6,8 +6,8 @@ import { employeesSlice } from '@/store/reducers/EmployeeSlice'
 import { EmployeesTypes } from '@/types/EmployeesTypes'
 import { convertToRecord } from '@/utils/convertToRecord'
 
-import Button from './Button'
-import { InputField } from './InputField'
+import Button from '../Button/Button'
+import { InputField } from '../InputField/InputField'
 
 const Filter = () => {
   const [isOpen, setIsOpen] = React.useState(false)

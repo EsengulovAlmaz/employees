@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Button from './Button'
-import ModalWrapper from './ModalWrapper'
+import Button from '../Button/Button'
+import ModalWrapper from '../ModalWrapper/ModalWrapper'
 
 interface Props {
   isOpen: boolean
