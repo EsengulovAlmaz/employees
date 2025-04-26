@@ -28,6 +28,11 @@ const Filter = () => {
     dispatch(setFilter(recordData))
   }
 
+  const handleReset = () => {
+    reset()
+    dispatch(setFilter({}))
+  }
+
   return (
     <div className="w-full">
       <Button
@@ -56,7 +61,7 @@ const Filter = () => {
             <Button
               title="Reset"
               type="reset"
-              onClick={reset}
+              onClick={handleReset}
               className="w-[150px] px-4 py-2 bg-[#d1d5db] text-[#374151] rounded-md mr-2"
             />
             <Button
